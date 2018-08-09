@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  familiaandrade:
+    image: ${DOCKER_REGISTRY}familiaandrade
+    build:
+      context: .
+      dockerfile: Dockerfile

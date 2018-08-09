@@ -1,0 +1,42 @@
+﻿@page
+@model AniversarioModel
+@{
+    ViewData["Title"] = "Aniversáriantes de Abril";
+}
+<h4>@ViewData["Title"]</h4>
+
+<div>
+    <div class="row">
+        <div class="col-lg-5">
+            <ul>
+                <li> <h4>Dia Nome </h4>
+                <li> 01 <a asp-page="/Jeovania"> Jeovânia </a> Maria Goersch Andrade Aragão
+                <li> 02 José Ferreira <a asp-page="/Portela"> Portela </a> Neto
+                <li> 03 <a asp-page="/Floranise"> Florinda Nise </a> Andrade Melo (In memorian)
+                <li> 08 Maria <a asp-page="/Eliete"> ELiete </a> Viana Andrade
+                <li> 11 João <a asp-page="/EdsonFilho"> Édson </a> Andrade Filho
+                <li> 11 <a asp-page="/Livia"> Lívia </a> Martins Andrade
+                <li> 17 <a asp-page="/Riades"> Ríades </a> Silva Andrade
+                <li> 18 <a asp-page="/Gustavo"> Gustavo </a> Andrade Parente
+                <li> 20 <a asp-page="/IsabellePortella"> Isabelle </a> Mendes Portella
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-10">
+                <h4>Consultar outro mês.</h4>
+                <ul>
+                    <li> <a asp-page="/mesJaneiro"> Janeiro </a>
+                    <li> <a asp-page="/mesFevereiro"> Fevereiro </a>
+                    <li> <a asp-page="/mesMarço"> Março </a>
+                    <li> <a asp-page="/mesAbril"> Abril </a>
+                    <li> <a asp-page="/mesMaio">  Maio </a>
+                    <li> <a asp-page="/mesJunho">  Junho </a>
+                    <li> <a asp-page="/mesJulho">  Julho </a>
+                    <li> <a asp-page="/mesAgosto">  Agosto </a>
+                    <li> <a asp-page="/mesSetembro">  Setembro </a>
+                    <li> <a asp-page="/mesOutubro">  Outubro </a>
+                    <li> <a asp-page="/mesNovembro">  Novembro </a>
+                    <li> <a asp-page="/mesDezembro">  Dezembro </a>
+                </ul>
+            </div>
+        </div>

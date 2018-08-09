@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Aniversáriantes de Junho";
+}
+<h4>@ViewData["Title"]</h4>
+
+<div>
+    <div class="row">
+        <div class="col-md-5">
+            <ul>
+                <li> <h4>Dia Nome </h4>
+                <li> 04 <a asp-page="/Luciene"> Luciene </a> Vasconcelos Andrade
+                <li> 05 <a asp-page="/Clauber"> Clauber </a> Sérgio Andrade Portela
+                <li> 08 <a asp-page="/Fernando"> Fernando </a> Antonio Farias Frota
+                <li> 14 <a asp-page="/Caio"> Caio </a> Sander Júnior
+                <li> 17 <a asp-page="/Amanda"> Amanda </a> Vasconcelos Andrade
+                <li> 17 Francisco <a asp-page="/Agenor"> Agenor </a> Andrade (In memorian)
+                <li> 17 <a asp-page="/Rosana"> Rosana </a> Feijão Andrade
+                <li> 19 Maria <a asp-page="/MariaTely"> Tely </a> Amaro Andrade
+                <li> 22 Francisco <a asp-page="/Wilian"> Wilian </a> Amaro Andrade
+                <li> 23 <a asp-page="/Alexandro"> Alexandro </a> Vasconcelos Andrade
+                <li> 26 José <a asp-page="/Wellington"> Wellingon </a> Amaro Andrade
+                <li> 30 Pedro <a asp-page="/Edilson"> Edilson </a> Andrade
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-10">
+                <h4>Consultar outro mês.</h4>
+                <ul>
+                    <li> <a asp-page="/mesJaneiro"> Janeiro </a>
+                    <li> <a asp-page="/mesFevereiro"> Fevereiro </a>
+                    <li> <a asp-page="/mesMarço"> Março </a>
+                    <li> <a asp-page="/mesAbril"> Abril </a>
+                    <li> <a asp-page="/mesMaio">  Maio </a>
+                    <li> <a asp-page="/mesJunho">  Junho </a>
+                    <li> <a asp-page="/mesJulho">  Julho </a>
+                    <li> <a asp-page="/mesAgosto">  Agosto </a>
+                    <li> <a asp-page="/mesSetembro">  Setembro </a>
+                    <li> <a asp-page="/mesOutubro">  Outubro </a>
+                    <li> <a asp-page="/mesNovembro">  Novembro </a>
+                    <li> <a asp-page="/mesDezembro">  Dezembro </a>
+                </ul>
+            </div>
+        </div>
+    </div>
